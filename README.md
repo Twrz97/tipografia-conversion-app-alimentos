@@ -56,20 +56,7 @@ Una startup que vende alimentos por app móvil desea modernizar su diseño visua
 ├── datos/
 │   └── logs_exp_us.csv                # Datos simulados del experimento
 └── LICENSE
-
-## ▶️ Ejecución del análisis
-
-Puedes acceder al notebook del proyecto de dos maneras:
-
-- 💻 **Descargar y ejecutar localmente**:  
-  Abre `notebooks/analisis_embudo.ipynb` en Jupyter, VSCode o cualquier entorno compatible con `.ipynb`.  
-  Requiere tener instaladas las siguientes librerías:
-  `pandas`, `numpy`, `seaborn`, `matplotlib`, `scipy`, `statsmodels`
-
-- ☁️ **Ejecutar directamente en Google Colab**:  
-  [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13Pltwq5smixE8HIpspoy5N3SUPZbduFh?usp=sharing)
-
-> El notebook incluye desde la lectura de datos y limpieza temporal hasta la construcción del embudo de ventas y el análisis estadístico con correcciones múltiples. Totalmente reproducible.
+```
 
 ## 🧪 Resultados de pruebas estadísticas (Bonferroni alpha = 0.0025)
 
@@ -100,3 +87,16 @@ Puedes acceder al notebook del proyecto de dos maneras:
 | compra_exitosa   | 46.57%   | 47.16%       | 0.62967  | ✅ No significativa |
 | tutorial         | 11.10%   | 11.26%       | 0.84205  | ✅ No significativa |
 
+## ▶️ Ejecución del análisis
+
+Puedes acceder al notebook del proyecto de dos maneras:
+
+- 💻 **Descargar y ejecutar localmente**:  
+  Abre `notebooks/analisis_embudo.ipynb` en Jupyter, VSCode o cualquier entorno compatible con `.ipynb`.  
+  Requiere tener instaladas las siguientes librerías:
+  `pandas`, `numpy`, `seaborn`, `matplotlib`, `scipy`, `statsmodels`
+
+- ☁️ **Ejecutar directamente en Google Colab**:  
+  [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13Pltwq5smixE8HIpspoy5N3SUPZbduFh?usp=sharing)
+
+> El notebook incluye desde la lectura de datos y limpieza temporal hasta la construcción del embudo de ventas y el análisis estadístico con correcciones múltiples. Totalmente reproducible.
