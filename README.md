@@ -53,6 +53,7 @@ Una startup que vende alimentos por app móvil desea modernizar su diseño visua
 ├── visualizaciones/
 │   ├── embudo_conversion.png          # Embudo por etapas
 │   └── pvalues_comparacion.png        # P-values corregidos
+|   └── tablas_resultados_estadisticos.png    # Resultados estadisticos
 ├── datos/
 │   └── logs_exp_us.csv                # Datos simulados del experimento
 └── LICENSE
